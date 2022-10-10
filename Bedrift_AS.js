@@ -22,7 +22,7 @@ console.log(restAmount);
 const rest = restAmount;
 
 
-// Take difference, and find kroner that is less than the difference but greater than the previous
+// Take difference, and find kroner that is less than the difference but greater than the previous kroner
 
 while (restAmount > 0) {
     switch(true) {
