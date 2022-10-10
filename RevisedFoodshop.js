@@ -13,15 +13,15 @@ const products = [];
     products[11] = ["Mushroom", 1.40, 6];
     console.log(products);
 
-function inventory(products) {
-    let takeInventory = prompt("Please enter the number of product you are taking.");
-    let addInventory = prompt("Please enter the number of product you are adding.");
-    let inventory = products[[i][2]];
+function inventory() {
+    let takeInventory = parseInt(prompt("Please enter the number of product you are taking."));
+    let addInventory = parseInt(prompt("Please enter the number of product you are adding."));
+    let inventory = parseInt(document.getElementById('food'));
     let newInventory = (parseInt(inventory) + parseInt(addInventory)) - parseInt(takeInventory);
-    if (newInventory[i] < 4) {
+    if (newInventory < 4) {
     alert("Buy more!");
 } else {
     alert("The current inventory is: " + newInventory);
     }
-    document.getElementById('products').innerText = newInventory;
+    document.getElementById('food').innerText = newInventory;
 }

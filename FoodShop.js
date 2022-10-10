@@ -1,20 +1,3 @@
-// class Fridge {
-//     constructor(tomato, potato, onion, carrot, celery, lettuce, spinach, cabbage, beetroot, turnip, parsnip, mushroom) {
-//       this.tomato = tomato;
-//       this.potato = potato;
-//       this.onion = onion;
-//       this.carrot = carrot;
-//       this.celery = celery;
-//       this.lettuce = lettuce;
-//       this.spinach = spinach;
-//       this.cabbage = cabbage;
-//       this.beetroot = beetroot;
-//       this.turnip = turnip;
-//       this.parsnip = parsnip;
-//       this.mushroom = mushroom;
-//     }
-//   }
-
 function tomato() {
     let inventory = 4;
     let takeInventory = prompt("Please enter the number of tomatoes you are taking.");
